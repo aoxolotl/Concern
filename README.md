@@ -23,6 +23,14 @@ pip3 install --user pym2149
 # Tell Concern to use it instead of foxdot:
 echo Concern consumerName = pym2149 | tee -a ~/.settings.arid
 ```
+
+### `screen` dependency
+In case GNU Screen is not already installed
+```
+# On Ubuntu
+sudo apt-get install screen
+```
+
 ## Usage
 ### FoxDot
 ```
